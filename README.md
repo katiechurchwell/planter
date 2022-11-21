@@ -43,7 +43,7 @@ Model ↔ Controller ↔ View
 - Database migration is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
 
 
-#### :eyeglasses: Action View (VIEW)
+#### :eyes: Action View (VIEW)
 - Instance variables are available to the view (specific to Rails) (`@people`)
 - What is an instance, technically?
   - Instantiated.
@@ -60,7 +60,7 @@ Model ↔ Controller ↔ View
 - Generates URL route helpers and other methods to simplify handling logic.
 
 #### JavaScript
-- Yarn
+- :yarn: Yarn
   - Like npm, installing dependencies.
   - `@rails/webpacker`
     - Webpack is a JavaScript module bundler which in theory makes it easier to reference a lot of JavaScript code from different places.
@@ -73,7 +73,7 @@ Model ↔ Controller ↔ View
       Defaults to turbolinks but you can use React or whatever you want.
 ---
 ## Using Rails
-### Scaffolding
+### :bricks: Scaffolding
 ```rails generate scaffold person email name```
 - new migration for the people table
 - person model
