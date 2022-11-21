@@ -16,12 +16,12 @@ A planner for plants. Exploring the Ruby on Rails framework via online learning 
 ---
 ## Overview on Rails
 ### Rails Conventions
-- A place for every file and every file in its place.
-- Migration files for repeatable database alterations.
-- CSRF, XSS and SQL injection protection, security headers, SSL, encrypted secrets.
-- Code autoloading and reloading in development.
-- Automatically generated tests with all files.
-- Localization and timezone support out of the box.
+- :file_folder: A place for every file and every file in its place.
+- :recycle: Migration files for repeatable database alterations.
+- :lock: CSRF, XSS and SQL injection protection, security headers, SSL, encrypted secrets.
+- :arrow_forward: Code autoloading and reloading in development.
+- :white_check_mark: Automatically generated tests with all files.
+- :clock1: Localization and timezone support out of the box.
 
 ### Rails is a Metaframework
 #### Rails Request Cycle
@@ -72,7 +72,7 @@ Model ↔ Controller ↔ View
       - Speeds up browser rendering by only updating HTML that actually changes.
       Defaults to turbolinks but you can use React or whatever you want.
 ---
-
+## Using Rails
 ### Scaffolding
 ```rails generate scaffold person email name```
 - new migration for the people table
