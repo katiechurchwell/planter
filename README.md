@@ -24,7 +24,7 @@ A planner for plants. Exploring the Ruby on Rails framework via online learning 
 - :clock1: Localization and timezone support out of the box.
 
 ### Rails is a Metaframework
-#### Rails Request Cycle
+#### Rails Request Cycle 
 ```
         Request 
             ↓ 
@@ -35,7 +35,7 @@ Model ↔ Controller ↔ View
         Reponse
 ```
 
-#### Active Record (MODEL)
+#### :books: Active Record (MODEL)
 - An ORM; it maps the state of data in a Ruby object to its stored representation in your database.
 - `Person.first.update(email:”example”)` = `UPDATE people SET email = “example” WHERE people.id =1;`
 - Rails uses `:symbols` instead of `“strings”` because they’re memory efficient by default.
@@ -43,7 +43,7 @@ Model ↔ Controller ↔ View
 - Database migration is the process of migrating data from one or more source databases to one or more target databases by using a database migration service.
 
 
-#### Action View (VIEW)
+#### :eyeglasses: Action View (VIEW)
 - Instance variables are available to the view (specific to Rails) (`@people`)
 - What is an instance, technically?
   - Instantiated.
@@ -54,7 +54,7 @@ Model ↔ Controller ↔ View
   - `<%= [ruby code here] %>`
   - The Asset Pipeline combines and compresses your CSS assets into a single file.
 
-#### Action Pack (CONTROLLER)
+#### :vertical_traffic_light: Action Pack (CONTROLLER)
 - Defining routes to direct HTTP requests
 - Controllers retrieve data from models
 - Generates URL route helpers and other methods to simplify handling logic.
