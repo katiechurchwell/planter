@@ -3,14 +3,13 @@ A planner for plants. Exploring the Ruby on Rails framework via online learning 
 
 :railway_car: [Quick link to Rails docs.](https://api.rubyonrails.org)
 
----
 ## Using this App
 ### Versions Used:
-- ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [arm64-darwin21]
+- ruby 2.7.2p137
 - Rails 6.1.7
 
 ### Terminal Commands:
-- ```rails server```
+- :point_right: ```rails server```
   - Start local server and display request logs
 - ```rails routes | grep [keyword]```
   - View Routes by keyword
@@ -79,7 +78,6 @@ Model ↔ Controller ↔ View
       - HTML of show page, replaced body, update URL.
       - Speeds up browser rendering by only updating HTML that actually changes.
       Defaults to turbolinks but you can use React or whatever you want.
----
 ## Using Rails
 ### :bricks: Scaffolding
 ```rails generate scaffold person email name```
