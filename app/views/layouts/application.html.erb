@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project</title>
+    <title>Planter</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <h1>Planter</h1>
+      <h1><%= link_to "Planter", root_path %></h1>
       <nav>
         <ul>
           <li> <%= link_to "People", people_path %></li>
