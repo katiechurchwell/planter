@@ -1,7 +1,7 @@
 # Planter :seedling:
 A planner for plants. Exploring the Ruby on Rails framework via online learning with [Plural Sight's Ruby on Rails: The Big Picture](https://app.pluralsight.com/library/courses/ruby-rails-big-picture/table-of-contents).
 
-:railway_car: [Quick link to Rails docs.](https://guides.rubyonrails.org/v3.2/getting_started.html)
+:railway_car: [Quick link to Rails docs.](https://api.rubyonrails.org)
 
 ---
 ## Using this App
@@ -10,10 +10,14 @@ A planner for plants. Exploring the Ruby on Rails framework via online learning 
 - Rails 6.1.7
 
 ### Terminal Commands:
-- Boot the server by running: ```rails server```
-- Visit address (http://127.0.0.1:3000/ in my case)
-- Run pending migrations if needed
----
+- Starting App
+  - Boot the server by running: ```rails server```
+  - Visit address (http://127.0.0.1:3000/ in my case)
+  - Run pending migrations if needed
+  - Routes available to visit: `/People` and `/Plants`
+
+- Routes
+  - View Routes by keyword: ```rails routes | grep [keyword]```
 ## Overview on Rails
 ### Rails Conventions
 - :file_folder: A place for every file and every file in its place.
@@ -83,4 +87,11 @@ Model ↔ Controller ↔ View
 
 ```rails generate scaffold plant name person:references```
 
-Looking in ``db>migrate>create_plants.rb``, we can see t.references which takes the ``:person`` symbol and two options -- ``null: false, foreign_key:true``.
+Looking in ``db>migrate>create_plants.rb``, we can see t.references which takes the ``:person`` symbol and two options:
+- ``null: false``.
+    - means we require all plants to always have a reference to a person.
+- ``foreign_key:true``
+    - meaning we can't have a person that doesn't also exist on the person table.
+
+### Associations
+- Collection proxies in Active Record are middlemen between an `association`, and its `target` result set. An array-like structure that contains many model instances.
