@@ -19,7 +19,7 @@
   <div class="field">
     <%= form.label :person_id %>
     <%= form.select :person_id, Person.all.collect { |p| [ p.name, p.id ] }, 
-    include_blank: true, selected: params[:person_id] %>
+    include_blank: "Pick a person", selected: params[:person_id] %>
   </div>
 
   <div class="actions">
