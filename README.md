@@ -10,13 +10,18 @@ A planner for plants. Exploring the Ruby on Rails framework via online learning 
 - Rails 6.1.7
 
 ### Terminal Commands:
-- Starting App
-  - Boot the server by running: ```rails server```
-  - Visit address (http://127.0.0.1:3000/ in my case)
-  - Run pending migrations if needed
-
-- Routes
-  - View Routes by keyword: ```rails routes | grep [keyword]```
+- ```rails server```
+  - Start local server and display request logs
+- ```rails routes | grep [keyword]```
+  - View Routes by keyword
+- ```rails new <application_name>```
+  - Create application and install dependencies
+- ```rails generate scaffold <name> <attribute>```
+  - Create a full model-to-views prototype
+- ```rails db:migrate```
+  - Run any pending database migrations
+- ``rails help``
+  - Find more rails commands
 ## Overview on Rails
 ### Rails Conventions
 - :file_folder: A place for every file and every file in its place.
