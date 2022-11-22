@@ -14,7 +14,6 @@ A planner for plants. Exploring the Ruby on Rails framework via online learning 
   - Boot the server by running: ```rails server```
   - Visit address (http://127.0.0.1:3000/ in my case)
   - Run pending migrations if needed
-  - Routes available to visit: `/People` and `/Plants`
 
 - Routes
   - View Routes by keyword: ```rails routes | grep [keyword]```
